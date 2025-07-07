@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Campus Cab Booking</title>
+  <style>
+    body { font-family: Arial; background: #f0f0f0; padding: 50px; }
+    form { background: white; padding: 20px; border-radius: 8px; max-width: 300px; margin: auto; }
+    input, button { width: 100%; padding: 10px; margin: 5px 0; }
+  </style>
+</head>
+<body>
+  <h2>Campus Cab Booking</h2>
+  <form method="POST" action="/book">
+    <input type="text" name="user_name" placeholder="Your Name" required>
+    <input type="text" name="pickup" placeholder="Pickup Point" required>
+    <input type="text" name="drop_point" placeholder="Drop Point" required>
+    <button type="submit">Book Cab</button>
+  </form>
+</body>
+</html>
